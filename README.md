@@ -1,2 +1,2 @@
 # Python
-Python repo
+This repo is made for python projects.
