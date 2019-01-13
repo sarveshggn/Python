@@ -6,5 +6,5 @@ class Circle():
     def area(self):
         return self.radius*self.radius*Circle.pi
 
-my_circle = Circle()
+my_circle = Circle()           #here add your radius
 print(my_circle.area())
