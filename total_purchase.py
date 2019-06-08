@@ -1,4 +1,4 @@
-print("Welcome to Supermarket. ")
+print("Welcome to Supermarket.")
 item_1 = float(input("Enter the price of first item : "))
 item_2 = float(input("Enter the price of second item : "))
 item_3 = float(input("Enter the price of third item : "))
