@@ -4,7 +4,10 @@ class Rectangle():
         self.breadth = breadth
 
     def area(self):
+        print("Length is "+ str(self.length))
+        print("Breadth is "+ str(self.breadth))
+        print("Area of rectangle is:")
         return self.length*self.breadth
 
-my_rectangle = Rectangle()           #### PUT VALUES OF LENGTH AND BREADTH HERE####
+my_rectangle = Rectangle(4,5)           #### PUT VALUES OF LENGTH AND BREADTH HERE####
 print(my_rectangle.area())
