@@ -45,3 +45,6 @@ while clue_report != "CODE CRACKED!":
     print("Here is the result of your guess: ")
     for clue in clue_report:
         print(clue)
+
+
+##### what enumerate in line 21 does is that it reduces the need of writing ind = 0 and ind += 1
