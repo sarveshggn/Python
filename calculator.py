@@ -81,24 +81,4 @@ def main():
 
 main()
 
-####################################################################
-# def ask_again():                                                ##
-#     again = input("Would you like to enter another command? ")  ##
-#     if again[0].lower() == "y":                                 ##
-#         return True                                             ##
-#     if again[0].lower() == "n":                                 ##
-#         return False                                            ##
-#                                                                 ##
-# def main():                                                     ##
-#     again = True                                                ##
-#     while again == True:                                        ##
-#         introduction()                                          ##
-#         print_instructions()                                    ##
-#         user_input = get_user_input()                           ##
-#         operation = parse_input(user_input)                     ##
-#         answer = run_operation(operation)                       ##
-#         answer_user(answer)                                     ##
-#         again = ask_again()                                     ##
-#                                                                 ##
-# main()                                                          ##
-####################################################################
+
