@@ -1,5 +1,3 @@
-# Function for nth Fibonacci number
-
 def Fibonacci(n):
 	if n<=0:
 		print("Incorrect input")
@@ -12,8 +10,4 @@ def Fibonacci(n):
 	else:
 		return Fibonacci(n-1)+Fibonacci(n-2)
 
-# Driver Program
-
-print(Fibonacci(9))
-
-#This code is contributed by Saket Modi
+print(Fibonacci(15))
