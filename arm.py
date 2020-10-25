@@ -1,8 +1,6 @@
-# Python program to determine whether 
-# the number is Armstrong number or not 
+# Python program to determine whether the number is Armstrong number or not 
+# Helper function to calculate x raised to the power y
 
-# Function to calculate x raised to 
-# the power y 
 def power(x, y): 
 	
 	if y == 0: 
@@ -23,8 +21,7 @@ def order(x):
 		
 	return n 
 
-# Function to check whether the given 
-# number is Armstrong number or not 
+# Function to check whether the given number is Armstrong number or not 
 def isArmstrong(x): 
 	
 	n = order(x) 
