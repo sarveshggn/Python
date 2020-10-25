@@ -1,5 +1,4 @@
-# Python program to print a 
-# square matrix in Z form 
+# Python program to print a square matrix in Z form 
 
 arr = [[4, 5, 6, 8], 
 		[1, 2, 3, 1], 
@@ -25,4 +24,3 @@ i=n-1;
 for j in range(0, n): 
 	print(arr[i][j], end = " ") 
 
-# Code contributed by Mohit Gupta_OMG <(0_o)> 
