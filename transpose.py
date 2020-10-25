@@ -1,10 +1,8 @@
-# Python3 Program to find 
-# transpose of a matrix 
+# Python Program to find transpose of a matrix 
 
 N = 4
 
-# This function stores 
-# transpose of A[][] in B[][] 
+# This function stores transpose of A[][] in B[][] 
 
 def transpose(A,B): 
 
@@ -28,5 +26,3 @@ for i in range(N):
 	for j in range(N): 
 		print(B[i][j], " ", end='') 
 	print() 
-	
-# This code is contributed by Anant Agarwal. 
