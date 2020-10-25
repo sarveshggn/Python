@@ -1,6 +1,4 @@
-# Python code to find the minimum number 
-# of jump required to reach 
-# (d, 0) from (0, 0) 
+# Python code to find the minimum number of jump required to reach (d, 0) from (0, 0) 
 
 def minJumps(a, b, d): 
 	
@@ -19,8 +17,7 @@ def minJumps(a, b, d):
 	if (d == a): 
 		return 1
 
-	# else make triangle, and only 2 
-	# steps required. 
+	# else make triangle, and only 2 steps required. 
 	return 2
 		
 # main() 
@@ -28,5 +25,3 @@ a = 3
 b = 4
 d = 11
 print (int(minJumps(a, b, d))) 
-
-# Contributed by _omg 
