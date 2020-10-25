@@ -1,7 +1,4 @@
-# Python3 program to find simple interest 
-# for given principal amount, time and 
-# rate of interest. 
-
+# Python3 program to find simple interest for given principal amount, time and rate of interest. 
 
 def simple_interest(p,t,r): 
 	print('The principal is', p) 
@@ -13,5 +10,5 @@ def simple_interest(p,t,r):
 	print('The Simple Interest is', si) 
 	return si 
 	
-# Driver code 
+
 simple_interest(8, 6, 8) 
